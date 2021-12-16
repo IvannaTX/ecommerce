@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: papyrus;
+    text-align: center;
+    }
+    @media only screen and (min-width: 200px) {
+      body {
+        background-color: whitesmoke;
+      }
+    }
+    /*Nav&Footer on each page*/
+    .navbar{
+      list-style: none;
+      font-size: 18px;
+    }
+    nav li{
+      display: inline-block;
+    }
+    nav li a{
+      text-decoration: none;
+      padding: 5px;
+      color: #414833;
+    }
+    footer {
+    padding: 20px;
+    background-color: #333d29;
+    color: #b6ad90;
+    bottom: 0;
+    }
+    footer img {
+      max-width: 75px;
+      margin: 5px;
+    }
+    /*Homepage*/
+    #hero img{
+      height: 500px;
+      width: 100%;
+    }
+    .header{
+        position: absolute;
+        top: 30px;
+        font-size: 80px;
+        color: #c07c62;
+        width: 100%;
+    }
+    
+    /*Products*/
+    main{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1em;
+    }
+    .prod{
+      border: 2px solid #333d29;
+      padding: 1em;
+    }
+    main img{
+      width: 200px;
+      height: 200px;
+    }
+    /*Contact*/
+    form{
+      padding: 50px;
+    }
