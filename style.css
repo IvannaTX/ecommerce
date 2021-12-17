@@ -13,6 +13,7 @@
     .navbar{
       list-style: none;
       font-size: 18px;
+      padding: 30px;
     }
     nav li{
       display: inline-block;
@@ -50,6 +51,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 1em;
+      padding-bottom: 200px;
     }
     .prod{
       border: 2px solid #333d29;
