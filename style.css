@@ -45,6 +45,26 @@
         color: #c07c62;
         width: 100%;
     }
+    /*Home Grid*/
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.grid-item:nth-child(1) {
+  grid-column: 1/2;
+  border: 2px solid #333d29;
+  border-radius: 20px;
+  padding: 10px;
+}
+.grid-item:nth-child(2) {
+  grid-column: 2/3;
+  border: 2px solid #333d29;
+  border-radius: 20px;
+  padding: 10px;
+}
     
     /*Products*/
     main{
