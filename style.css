@@ -14,20 +14,26 @@
       list-style: none;
       font-size: 18px;
       padding: 30px;
+      background-color: #B6AD90;
+      margin-bottom: 5px;
     }
     nav li{
       display: inline-block;
     }
     nav li a{
       text-decoration: none;
+      font-weight: bold;
       padding: 5px;
       color: #414833;
     }
+
+
     footer {
     padding: 20px;
     background-color: #333d29;
     color: #b6ad90;
     bottom: 0;
+    margin-bottom: 0;
     }
     footer img {
       max-width: 75px;
@@ -51,7 +57,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 .grid-item:nth-child(1) {
   grid-column: 1/2;
@@ -81,7 +87,15 @@
       width: 200px;
       height: 200px;
     }
-    /*Contact*/
-    form{
-      padding: 50px;
-    }
+        /*Contact*/
+        form{
+          padding: 50px;
+          background-color: #936639;
+          font-size: larger;
+        }
+
+        button{
+          background-color: #A4AC86;
+          border: none;
+          padding: 10px;
+        }
